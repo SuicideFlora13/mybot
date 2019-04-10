@@ -1,8 +1,8 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "Test",
-  "main": "bot.js",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^11.4.2"
   },
