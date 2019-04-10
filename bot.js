@@ -8,6 +8,7 @@ client.on('ready', () => {
     client.user.setActivity("за 13 = GG", {type: "WATCHING"})
 })
 
-client.on('ready', () => {
-  console.log ("Start");
+console.log ("Start");
+client.on('message', async message => {
+    if (message.content == "/ping") return message.reply("`я онлайн!`") && console.log(`Бот ответил ${message.member.displayName}, что я онлайн.`)
 });
